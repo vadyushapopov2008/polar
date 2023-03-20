@@ -115,7 +115,7 @@ img {
 
 .hero__decor::before {
     content: "";
-    background-image: url(../IMG/milk.png);
+    background-image: url(../IMG/content/milk.png);
     display: block;
     position: absolute;
     height: 70%;
