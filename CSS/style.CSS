@@ -26,6 +26,10 @@ ul>li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 img {
     max-width: 100%;
 }
@@ -118,11 +122,12 @@ img {
     background-image: url(../IMG/content/milk.png);
     display: block;
     position: absolute;
-    height: 70%;
-    width: 100%;
+    height: 548px;
+    width: 852px;
     background-size: 100%;
     background-repeat: no-repeat;
-    bottom: -90px;
+    bottom: -137px;
+    left: -180px;
 }
 .Delivery {
     margin: 30px 10px 40px;
@@ -361,17 +366,254 @@ img {
 
 .avatar-slider__list {
     display: flex;
+    align-items: center;
+    column-gap: 27px;
 }
 .avatars-slider__item {
  display: flex;display: flex;display: flex;display: flex;display: flex;
 }
 .avatar {
-
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
 }
 .avatar__img {
-
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+
 .active {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    border: 1px solid rgba(214, 67, 116, 1);
+}
+
+.downloadmenu {
+    padding: 60px 220px 0px 320px;  
+    background-color: rgb(210, 49, 103, 0.1);
+}
+
+
+
+    
+
+
+.downloadmenu__container {
+    display: flex;
+    column-gap: 135px;
+
+
+}
+.downloadmenu__img-wrap {
+    width: 305px;
+    height: 627px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.downloadmenu__img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.downloadmenu__info {
+    font-family: Roboto;
+}
+.downloadmenu__title {
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.downloadmenu__desc {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.01em;   
+}
+.downloadmenu__list {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+
+}
+.downloadmenu__item {
+ display: flex;
+}
+.add {
+
+}
+.add__img-wrap {
+    padding: 10px;
+    color: #FFFFFF;
+}
+.add__img {
+    width: 11px;
+    height: 16px;
+}
+.add__text {
 
 }
 
+.buttons {
+    display: flex;
+    column-gap: 20px;
+}
+.button {
+    display: block;
+    width: 175px;
+    height: 52px;
+}
+.button__image {
+    width: 100%;
+    height: 100%;
+}
+
+.ask_questions {
+    padding: 200px 530px 149px 433px;
+    text-align: center;
+}
+.ask_question__container{
+
+}
+.ask_questions__title {
+    font-size: 44px;
+}
+.ask_questions__input {
+    padding: 31px 354px 32px 31px;
+    background: rgba(250, 250, 250, 1);
+    border: none;
+}
+.ask_questions__textarea {
+    display: flex;
+    column-gap: 0;    
+}
+.ask_questions__btn {
+    padding: 32px 44px 28px 47px;
+}
+
+.footer {
+    background-color: rgb(10, 8, 8);
+    color: #FFFFFF;
+    padding: 80px 257px 114px 253px;
+}
+.footer__container {
+    display: flex;
+}
+.footer__contact {
+    row-gap: 25px;
+}
+
+.logo__img {
+    width: 79px;
+    height: 79px;
+}
+.footer__desc {
+
+}
+.footer__marks {
+    margin: 25px 0;
+}
+.footer__text {
+    width: 207px;
+}
+.social {
+    margin: 8px 0;
+    display: flex;
+    column-gap: 10px;
+}
+.social__item {
+
+}
+.social__link {
+
+}
+.social__img {
+    width: 15px;
+    height: 15px;
+}
+.footer__nav {
+    margin: 0 0 0 50px;
+    display: flex;
+    column-gap: 134px;
+}
+.footer__pay {
+    row-gap: 17px;
+    margin: 0px 151px;
+}
+.footer__list {
+
+}
+.footer__item {
+
+}
+.footer__link {
+    color: rgba(255, 255, 255, 1);
+    ;
+}
+
+
+.newsletter {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    
+
+}
+
+.footer__textarea {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 13px 0px;
+}
+
+.border {
+    border: 2px solid rgba(210, 49, 102, 1);
+    border-radius: 5px;
+}
+
+.footer__user {
+    width: 388px;
+    height: 55px;
+    position: relative;
+    right: 0;
+}
+.footer__submit {
+    width: 125px;
+    height: 55px;
+    background-color: rgba(210, 49, 102, 1);
+    color: #FFFFFF;
+    position: absolute;
+    margin: 0 0 0 263px;
+    padding: 16px 18px 16px 17px;
+    z-index: 48;
+}
+
+.mastercards {
+
+    display: flex;
+    column-gap: 15px;
+}
+.mastercard {
+
+}
+.mastercard__link {
+    height: 22px;
+}
+.mastercard__link:nth-child(1) {
+    width: 19px;
+}
+.mastercard__link:nth-child(2) {
+    width: 34px;
+}
+.mastercard__link:nth-child(3) {
+    width: 48px;
+}
+.mastercard__img {
+
+}
